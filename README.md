@@ -38,4 +38,4 @@ python3 my-detection.py
 
 Enjoy!
 
-Special thanks to Johannes Diehm for inspiration and advice.
+Special thanks to Johannes Diehm for inspiration.
