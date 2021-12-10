@@ -1,7 +1,7 @@
 # JetsonRocksSeashells
 AI to detect and classify rocks and seashells for the Jetson AI Specialist Certificate, sought during the MAE/ECE 148 class at UCSD.
 
-The scripts in this Jetson Inference-based repository detect and classify rocks and sea shells. More developed and advanced AI tools like this one could be used to differentiate between rocks and shells in marine environments, either for use in aquaculture (i.e. harvesting mussels and clams), or to identify otherwise well-camoflauged invertebrates underwater for conservation purposes.
+The scripts in this Jetson Inference-based repository detect and classify rocks and sea shells. More developed and advanced AI tools like this one could be used to differentiate between rocks and shells in marine environments, either for use in aquaculture (i.e. harvesting mussels and clams), or to identify otherwise well-camoflauged shellfish underwater for conservation purposes.
 
 # Installation
 Instructions to install Jetson Inference from Github:
@@ -26,10 +26,10 @@ Clone the Git Repository:
 git clone https://github.com/LiamEFowler/JetsonRocksSeashells
 ```
 
-This code is designed for a USB-camera. Follow instructions in the Hello AI World video tutorials to replace the /dev/video0 with the correct camera formatting.
+This code is designed for a USB-camera. Follow instructions in the Hello AI World video tutorials to replace the /dev/video0 with the correct camera formatting if you are using a different camera.
 
 # Run in terminal
-
+You should be in the jetson-inference directory you cloned and running the docker container with the JetsonRocksSeashells mounted into it (see https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-docker.md#mounted-data-volumes)
 ```
 python3 my-detection.py
 ```
