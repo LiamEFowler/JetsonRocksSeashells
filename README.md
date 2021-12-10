@@ -23,7 +23,7 @@ sudo ldconfig
 Clone the Git Repository:
 
 ```
-git clone 
+git clone https://github.com/LiamEFowler/JetsonRocksSeashells
 ```
 
 This code is designed for a USB-camera. Follow instructions in the Hello AI World video tutorials to replace the /dev/video0 with the correct camera formatting.
