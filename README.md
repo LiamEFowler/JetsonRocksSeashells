@@ -36,11 +36,10 @@ To use the model you must first unzip it:
 unzip models.zip
 ```
 
-
 This code is designed for a USB-camera. Follow instructions in the Hello AI World video tutorials to replace the /dev/video0 with the correct camera formatting if you are using a different camera.
 
 # Run in terminal
-You should be in the jetson-inference directory you cloned and running the docker container with the JetsonRocksSeashells mounted into it (see https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-docker.md#mounted-data-volumes)
+You should be in the jetson-inference directory you cloned and running the docker container with the JetsonRocksSeashells mounted into it (see https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-docker.md#mounted-data-volumes). This must be done on the latest version of the Jetpack for Jetson Nano, or by building jetson-inference natively from source.
 ```
 cd JetsonRocksSeashells
 python3 my-detection.py
