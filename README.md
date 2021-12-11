@@ -28,7 +28,7 @@ git clone https://github.com/LiamEFowler/JetsonRocksSeashells
 To see the data used:
 
 ```
-
+unzip data.zip
 ```
 
 To use the model you must first unzip it:
