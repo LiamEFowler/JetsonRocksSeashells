@@ -15,7 +15,7 @@ mkdir build
 cd build
 cmake ../
 make -j$(nproc)
-#WHEN ASKED CHOOSE ALL MODELS OBJECT DETECTION
+#WHEN ASKED CHOOSE ALL MODELS OBJECT DETECTION AND PYTHON3
 sudo make install
 sudo ldconfig
 ```
