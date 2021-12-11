@@ -34,7 +34,7 @@ You should be in the jetson-inference directory you cloned and running the docke
 python3 my-detection.py
 ```
 # Video
-
+See "Jetson AI Specialist Video.mp4" in this repository
 
 Enjoy!
 
